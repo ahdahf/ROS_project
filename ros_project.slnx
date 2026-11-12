@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="ros_project.vcxproj" />
+  <Project Path="ros_project.vcxproj" Id="52b11ad0-b696-4e61-b5d0-7e16f8da80a8" />
 </Solution>
