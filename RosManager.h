@@ -9,13 +9,12 @@ private:
 	std::vector<Publisher> publishers;
 	std::vector<Subscriber>subscribers;
 public:
-	RosManager();
 
 	~RosManager();
 
-	Publisher registerPublisher();
+	void registerPublisher();
 
-	Subscriber registerSubscriber();
+	void registerSubscriber();
 
 	void relayMessage();
 

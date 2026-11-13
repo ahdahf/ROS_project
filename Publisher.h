@@ -14,5 +14,5 @@ public:
 
 	std::string getTopic() const;
 
-	Message sendMessage();
+	Message sendMessage() const;
 };

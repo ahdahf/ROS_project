@@ -12,7 +12,7 @@ std::string Subscriber::getTopic() const {
 	return topic;
 }
 
-void Subscriber::receiveMessage(const Message& message) {
+void Subscriber::receiveMessage(const Message& message) const {
 	std::cout <<message.getContent() << "\n" 
 			  << message.getTimeStamp() << std::endl;
 }
