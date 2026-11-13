@@ -139,6 +139,7 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="Message.cpp" />
     <ClCompile Include="Node.cpp" />
     <ClCompile Include="Publisher.cpp" />
@@ -148,6 +149,7 @@
     <ClInclude Include="Message.h" />
     <ClInclude Include="Node.h" />
     <ClInclude Include="Publisher.h" />
+    <ClInclude Include="RosManager.h" />
     <ClInclude Include="Subscriber.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

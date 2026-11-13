@@ -1,6 +1,7 @@
 ﻿#pragma once
 #include<iostream>
 #include<string>
+#include<stdexcept>
 #include"Node.h"
 #include"Message.h"
 class Publisher :public Node {
